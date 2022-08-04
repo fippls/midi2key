@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=MIDI2key
+Icon=keyboard
+Exec=/home/krew/scripts/midi2key.sh
+Terminal=true
+Actions=
+Categories=X-GNOME-Other;
