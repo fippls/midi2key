@@ -1,7 +1,8 @@
 # midi2key
-midi2key - OBS studio scene switcher for Linux
+*midi2key - OBS studio scene switcher for Linux*
 
-Simple bash script that converts MIDI signals to keypresses that can be used for scene switching in OBS
+Simple bash script that converts MIDI signals to keypresses that can be used for scene switching in OBS.
+Works in Ubuntu 18 and 20. Requires xdotool which is available via apt.
 
 Supports two MIDI keyboards right now
 * Akai MPK Mini
