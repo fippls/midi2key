@@ -5,7 +5,7 @@
 
 Works in Ubuntu 18 and 20 but most likely any distro/version that can properly run xdotool.
 
-**Requires xdotool to be installed (available via apt in Ubuntu)**
+**Requires xdotool and aseqdump to be installed (available via apt in Ubuntu)**
 
 Supports two MIDI keyboards right now
 * Akai MPK Mini
@@ -16,5 +16,6 @@ For the MPK mini, the keypresses are CTRL+SHIFT for key bank 2
 
 ### How to use
 * Install xdotool
+* Install aseqdump (in alsa-utils package)
 * Launch **midi2key.sh**, make sure that the MIDI keyboard is properly detected
 * In OBS studio, choose to bind a hotkey for a particular scene switch and then press the desired key on the keypad
